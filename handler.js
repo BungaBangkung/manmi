@@ -475,7 +475,7 @@ module.exports = {
                         fail('private', m, this)
                         continue
                     }
-                    if (plugin.register == true && _user.registered == false) { // Need register?
+                    if (plugin.register == false && _user.registered == false) { // Need register?
                         fail('unreg', m, this)
                         continue
                     }
