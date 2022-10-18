@@ -717,13 +717,13 @@ Untuk mematikan fitur ini, ketik
   contextInfo: { 
     externalAdReply :{
     showAdAttribution: true,
-    mediaUrl: data.sc,
+    mediaUrl: data.linkig,
     mediaType: 2,
     description: '', 
-    title: 'Hay Kak',
-    body: '🗿',
+    title: 'Hay Kak👋😄',
+    body: 'Hohoho🗿😂',
     thumbnail: await(await fetch(img)).buffer(),
-    sourceUrl: data.sc
+    sourceUrl: data.linkig
      }}
   })
 }
