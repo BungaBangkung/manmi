@@ -296,7 +296,7 @@ module.exports = {
                     antiDownload: true,
                     antispam: true,
                     antitroli: false,
-                    antivirtex: false,
+                    antivirtex: true,
                     viewonce: false,
                     nsfw: false,
                     simi: false,
